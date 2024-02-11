@@ -1,8 +1,8 @@
-transformers
-langchain
-accelerate
-pdfminer.six
-gradio
-sentence-transformers
-nltk
-torch
+transformers==4.37.2 
+langchain==0.1.6
+accelerate==0.27.0
+pdfminer.six==20231228
+gradio==4.18.0
+sentence-transformers==2.3.1
+nltk==3.8.1
+torch==2.1.0
