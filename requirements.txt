@@ -1,0 +1,8 @@
+transformers
+langchain
+accelerate
+pdfminer.six
+gradio
+sentence-transformers
+nltk
+torch
