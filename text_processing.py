@@ -53,7 +53,7 @@ def clean_summary(summary):
         str: The cleaned summary.
     """
 
-    cleaned_summary = re.sub(r'\s*\d+\.\s*', ' ', summary)
+    cleaned_summary = re.sub(r'\s*\d+\.(?!\d)\s*', ' ', summary)
     cleaned_summary = re.sub(r'\s*\d+\)\s*', ' ', cleaned_summary)
     cleaned_summary = re.sub(r'\*+\s*', ' ', cleaned_summary)
 
